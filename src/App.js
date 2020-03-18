@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <h1>Contact List</h1>
+      <ListOfContacts contacts={contacts} />
     </div>
   );
 }
