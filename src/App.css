@@ -1,5 +1,5 @@
 .App {
-  width: 400px;
+  width: 500px;
   text-align: center;
   margin-left: 50%;
   transform: translateX(-50%);
@@ -21,6 +21,7 @@ img {
 .contact-card {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 10px 0;
   border-bottom: 2px solid #acacac;
 }
@@ -29,4 +30,11 @@ img {
 .contact-data {
   width: 250px;
   text-align: center;
+}
+.arrowBtn {
+  text-align: center;
+  font-size: 30px;
+  color: #acacac;
+  margin-left: 20px;
+
 }

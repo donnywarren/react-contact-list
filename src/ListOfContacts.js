@@ -15,6 +15,10 @@ function ListOfContacts(props) {
                 <p>Home: {contact.phone}</p>
                 <p>Mobile: {contact.cell}</p>
               </div>
+              <div className="arrowBtn">
+                <p>></p>
+
+              </div>
             </div>
           ))
         }
