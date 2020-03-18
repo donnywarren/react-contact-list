@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import contacts from "./data/contacts.json"
+import ListOfContacts from "./ListOfContacts.js"
 
 
 function App() {

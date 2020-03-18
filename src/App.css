@@ -1,3 +1,32 @@
 .App {
+  width: 400px;
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border: 1 solid black;
+}
+
+.contact-main-container {
+  border: 2px solid #000;
+  padding: 0 30px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #000;
+  border-radius: 50%;
+}
+
+.contact-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 2px solid #acacac;
+}
+
+
+.contact-data {
+  width: 250px;
   text-align: center;
 }
